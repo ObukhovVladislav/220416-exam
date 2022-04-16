@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Главная</title>
+</head>
+<body>
+<div>
+    {% for item in news %}
+    <h3>
+        {{ item.title }}
+    </h3>
+    <p>
+        {{ item.desk }}
+    </p>
+    {% endfor %}
+</div>
+
+</body>
